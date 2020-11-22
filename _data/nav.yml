@@ -1,9 +1,7 @@
 - name: Home
-  path: index.html
+  path: index-personal.html
   section_id: home
   children:
-    - name: Home Studio
-      path: index.html
     - name: Home Personal
       path: index-personal.html
 - name: Pages
