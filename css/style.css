@@ -48,7 +48,7 @@
   color: #fff; }
 
 .full.brown {
-  background: #AB8860; }
+  background: #77773c; }
 
 .full.light-grey {
   background: #f6f6f6; }
@@ -68,9 +68,9 @@
   background-position: right bottom;
   background-attachment: fixed; }
 
-.full.tree {
+.full.portrait {
   min-height: 60%;
-  background-image: url(../images/@stock/tree.png);
+  background-image: url(../images/@gallery/Portrait_small.jpg);
   background-repeat: no-repeat;
   background-position: center 55%;
   background-attachment: fixed; }
