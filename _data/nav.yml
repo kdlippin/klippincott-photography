@@ -1,9 +1,3 @@
-- name: Home
-  path: index-personal.html
-  section_id: home
-  children:
-    - name: Home Personal
-      path: index-personal.html
 - name: Pages
   path: about.html
   section_id: pages
