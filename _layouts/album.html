@@ -1,0 +1,90 @@
+---
+layout: default
+section_id: portfolio
+---
+
+<div class="full light-grey">
+    <div class="four spacing"></div>
+    <div class="section-title">
+      <div class="row">
+        <div class="medium-10 medium-centered columns">
+          <h1 class="wow slideInUp">{{page.heading}}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="full">
+    <div class='row'>
+      <div class='large-12 columns'>
+        <div class='slides'>
+          {% for column in page.photos %}
+            {% for image in column %}
+            <div class='slide'>
+              <img alt="" src="{{image.location}}" />
+            </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="two spacing"></div>
+  
+    <div class="row">
+      <div class="project-intro">
+        <h2>{{page.title}}</h2>
+        <p>{{content}}</p>
+      </div>
+    </div>
+    <div class="two spacing"></div>
+  
+    <div class="full">
+      <div class="row">
+        <div class="large-4 columns">
+          {% for photo in page.photos[0] %}
+          <img src="{{photo.location}}" alt="">
+          <div class="spacing"></div>
+          {% endfor %}  
+        </div>
+        <div class="large-4 columns">
+          {% for photo in page.photos[1] %}
+          <img src="{{photo.location}}" alt="">
+          <div class="spacing"></div>
+          {% endfor %}  
+        </div>
+        <div class="large-4 columns">
+          {% for photo in page.photos[2] %}
+          <img src="{{photo.location}}" alt="">
+          <div class="spacing"></div>
+          {% endfor %}  
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <hr>
+  <div class="full">
+    <div class="section-title">
+      <div class="row">
+        <div class="medium-10 medium-centered columns">
+          <h2>Related projects</h2>
+        </div>
+      </div>
+    </div>
+    <div class="related-works">
+      <div class="row">
+        {% for related in page.related %}
+        <div class="large-4 columns">
+          <div class="work-wrapper">
+            <a href="{{related.location}}" class="work">
+              <img src="{{related.image}}" alt="">
+              <div class="info">
+                <h3>{{related.heading}}</h3>
+                <p>{{related.description}}</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
