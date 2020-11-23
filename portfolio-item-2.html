@@ -1,7 +1,25 @@
 ---
 layout: default
 section_id: portfolio
-title: The Project
+title: Northwest Cascades
+heading: Northwest Cascades
+photos:
+  -
+    - location: images/@gallery/nwMT/nwMt1.jpg
+    - location: images/@gallery/nwMT/nwMt2.jpg
+    - location: images/@gallery/nwMT/nwMt3.jpg
+    - location: images/@gallery/nwMT/nwMt4.jpg
+    - location: images/@gallery/nwMT/nwMt5.jpg
+  -
+    - location: images/@gallery/nwMT/nwMt6.jpg
+    - location: images/@gallery/nwMT/nwMt7.jpg
+    - location: images/@gallery/nwMT/nwMt8.jpg
+    - location: images/@gallery/nwMT/nwMt9.jpg
+  - 
+    - location: images/@gallery/nwMT/nwMt10.jpg
+    - location: images/@gallery/nwMT/nwMt11.jpg
+    - location: images/@gallery/nwMT/nwMt12.jpg
+    - location: images/@gallery/nwMT/nwMt13.jpg
 ---
 
 <div class="full light-grey">
@@ -9,7 +27,7 @@ title: The Project
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h1 class="wow slideInUp">Case study</h1>
+        <h1 class="wow slideInUp">{{page.heading}}</h1>
       </div>
     </div>
   </div>
@@ -18,16 +36,18 @@ title: The Project
   <div class='row'>
     <div class='large-12 columns'>
       <div class='slides'>
-        <div class='slide'>
-          <img alt="" src="images/@stock/slide-full-1.jpg" />
-        </div>
-        <div class='slide'>
-          <img alt="" src="images/@stock/slide-full-2.jpg" />
-        </div>
+        {% for column in page.photos %}
+          {% for image in column %}
+          <div class='slide'>
+            <img alt="" src="{{image.location}}" />
+          </div>
+          {% endfor %}
+        {% endfor %}
       </div>
     </div>
   </div>
   <div class="two spacing"></div>
+
   <div class="row">
     <div class="large-8 columns">
       <div class="project-intro">
@@ -46,6 +66,31 @@ title: The Project
       </div>
     </div>
   </div>
+  <div class="two spacing"></div>
+
+  <div class="full">
+    <div class="row">
+      <div class="large-4 columns">
+        {% for photo in page.photos[0] %}
+        <img src="{{photo.location}}" alt="">
+        <div class="spacing"></div>
+        {% endfor %}  
+      </div>
+      <div class="large-4 columns">
+        {% for photo in page.photos[1] %}
+        <img src="{{photo.location}}" alt="">
+        <div class="spacing"></div>
+        {% endfor %}  
+      </div>
+      <div class="large-4 columns">
+        {% for photo in page.photos[2] %}
+        <img src="{{photo.location}}" alt="">
+        <div class="spacing"></div>
+        {% endfor %}  
+      </div>
+    </div>
+  </div>
+
 </div>
 <hr>
 <div class="full">
