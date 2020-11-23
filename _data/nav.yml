@@ -12,20 +12,22 @@
   path: portfolio.html
   section_id: works
   children:
-    - name: Portfolio Style 1
-      path: portfolio.html
     - name: Landscapes
       path: landscapes.html
     - name: PNW Mountains
       path: gallery/pnw-mountains
+    - name: Color
+      path: gallery/color
+    - name: Reflections
+      path: gallery/reflections
 # - name: Contact
 #   path: contact.html
 #   section_id: contact
-- name: Blog
-  path: blog.html
-  section_id: blog
-  children:
-    - name: Blog
-      path: blog/
-    - name: Single Page
-      path: travel/2016/04/05/beautiful-day.html
+# - name: Blog
+#   path: blog.html
+#   section_id: blog
+#   children:
+#     - name: Blog
+#       path: blog/
+#     - name: Single Page
+#       path: travel/2016/04/05/beautiful-day.html
