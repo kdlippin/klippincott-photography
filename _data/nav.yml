@@ -17,7 +17,7 @@
     - name: Portfolio Style 2
       path: portfolio-2.html
     - name: PNW Mountains
-      path: albums/pnw-mountains
+      path: gallery/pnw-mountains
 # - name: Contact
 #   path: contact.html
 #   section_id: contact

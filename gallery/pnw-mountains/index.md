@@ -20,10 +20,10 @@ photos:
     - location: images/nwMt12.jpg
     - location: images/nwMt13.jpg
 related:
-  - heading: Home
-    description: A link home
-    image: images/nwMt10.jpg
-    location: index.html
+  - heading: Color
+    description: Photos full of color
+    image: ../color/images/color4.jpg
+    location: ../color
 ---
 
 Hi I'm Keith ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloribus labore incidunt ratione aspernatur voluptate voluptas, dolor perspiciatis modi odit quos dolorum, hic soluta animi unde at amet eos officia!
