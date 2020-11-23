@@ -14,8 +14,8 @@
   children:
     - name: Portfolio Style 1
       path: portfolio.html
-    - name: Portfolio Style 2
-      path: portfolio-2.html
+    - name: Landscapes
+      path: landscapes.html
     - name: PNW Mountains
       path: gallery/pnw-mountains
 # - name: Contact

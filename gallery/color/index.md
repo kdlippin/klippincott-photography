@@ -31,7 +31,7 @@ photos:
 related:
   - heading: PNW Mountains
     description: Northwest mountain scenery
-    image: ../pnw-mountains/images/nwMt12.jpg
+    image: ../pnw-mountains/images/nwMt0.jpg
     location: ../pnw-mountains
 ---
 

@@ -4,7 +4,7 @@ title: PNW Mountains
 heading: PNW Mountains
 photos:
   -
-    - location: images/nwMt1.jpg
+    - location: images/nwMt0.jpg
     - location: images/nwMt2.jpg
     - location: images/nwMt3.jpg
     - location: images/nwMt4.jpg
@@ -17,12 +17,12 @@ photos:
   - 
     - location: images/nwMt10.jpg
     - location: images/nwMt11.jpg
-    - location: images/nwMt12.jpg
+    - location: images/nwMt1.jpg
     - location: images/nwMt13.jpg
 related:
   - heading: Color
     description: Photos full of color
-    image: ../color/images/color4.jpg
+    image: ../color/images/color0.jpg
     location: ../color
 ---
 
