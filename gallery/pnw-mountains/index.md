@@ -24,6 +24,10 @@ related:
     description: Photos full of color
     image: ../color/images/color0.jpg
     location: ../color
+  - heading: Reflections
+    description: Reflecting water
+    image: ../reflections/images/reflections0.jpg
+    location: ../reflections
 ---
 
 Hi I'm Keith ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloribus labore incidunt ratione aspernatur voluptate voluptas, dolor perspiciatis modi odit quos dolorum, hic soluta animi unde at amet eos officia!

@@ -4,7 +4,7 @@ title: Color
 heading: Color
 photos:
   -
-    - location: images/color4.jpg
+    - location: images/color0.jpg
     - location: images/color2.jpg
     - location: images/color3.jpg
     - location: images/color5.jpg
@@ -33,6 +33,10 @@ related:
     description: Northwest mountain scenery
     image: ../pnw-mountains/images/nwMt0.jpg
     location: ../pnw-mountains
+  - heading: Reflections
+    description: Reflecting water
+    image: ../reflections/images/reflections0.jpg
+    location: ../reflections
 ---
 
 Of course we can go to Home Depot and look at a wall full of every color in the world. We can order it and paint anything we want any color we want, but its a beautiful thing when we just stumble upon it.
