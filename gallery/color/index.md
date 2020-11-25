@@ -39,4 +39,4 @@ related:
     location: ../reflections
 ---
 
-Of course we can go to Home Depot and look at a wall full of every color in the world. We can order it and paint anything we want any color we want, but its a beautiful thing when we just stumble upon it.
+Of course we can go to Home Depot and look at a wall full of color. We can order it and paint anything we want any color we want, but its a beautiful thing when we just stumble upon it.
